@@ -47,56 +47,56 @@ This is the backend API for my Amazon-like E-commerce web application. Built wit
 
 ---
 
--Amazon-Backend/
--├── config/        # Configuration files
--├── controllers/   # Route Controllers
--├── middleware/    # Authentication & Error Handlers
--├── models/        # Mongoose Models
--├── routes/        # API Routes
--├── utils/         # Utility functions
--├── server.js      # Entry Point
--└── .env           # Environment Variables
+- Amazon-Backend/
+- ├── config/        # Configuration files
+- ├── controllers/   # Route Controllers
+- ├── middleware/    # Authentication & Error Handlers
+- ├── models/        # Mongoose Models
+- ├── routes/        # API Routes
+- ├── utils/         # Utility functions
+- ├── server.js      # Entry Point
+- └── .env           # Environment Variables
 ## 🚀 Getting Started (For Local Development)
 ## 1️⃣ Clone the Repository
--git clone https://github.com/varun-320/Amazon-Backend.git
--cd Amazon-Backend
+- git clone https://github.com/varun-320/Amazon-Backend.git
+- cd Amazon-Backend
 ## 2️⃣ Install Dependencies
--npm install
+- npm install
 ## 3️⃣ Setup Environment Variables
--Create a .env file in the root directory:
+- Create a .env file in the root directory:
 ---
--env
--PORT=5000
--MONGO_URI=your_mongodb_connection_string
--JWT_SECRET=your_jwt_secret_key
--Replace with your actual MongoDB connection string and JWT secret.
+- env
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret_key
+- Replace with your actual MongoDB connection string and JWT secret.
 
 ---
 
 ## 4️⃣ Run the Server
--For development:
--npm run dev
--Server will run locally at:
--http://localhost:5000
+- For development:
+- npm run dev
+- Server will run locally at:
+- http://localhost:5000
 ## 📡 API Endpoints
--Endpoint	Description
--/api/users	User Registration, Login, Profile
--/api/products	Product CRUD Operations
--/api/orders	Order Management
--/api/admin	Admin Functions
+- Endpoint	Description
+- /api/users	User Registration, Login, Profile
+- /api/products	Product CRUD Operations
+- /api/orders	Order Management
+- /api/admin	Admin Functions
 
 ---
 
 ## 🔗 Frontend Repository
--👉 Amazon-Frontend
+- 👉 Amazon-Frontend
 
 ## 🌐 Deployment
--The backend is deployed and accessible from anywhere via the provided deployed URL. You can deploy using:
+- The backend is deployed and accessible from anywhere via the provided deployed URL. You can deploy using:
 
--Render (recommended for Node.js)
+- Render (recommended for Node.js)
 
 ## 👨‍💻 Author
--Developed with ❤️ by Varun Shetty
+- Developed with ❤️ by Varun Shetty
 
 ## 📄 License
--This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
